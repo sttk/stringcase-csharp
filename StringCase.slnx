@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="StringCase.Benchmarks/StringCase.Benchmarks.csproj" />
+  <Project Path="StringCase.NativeTests/StringCase.NativeTests.csproj" />
+  <Project Path="StringCase.Tests/StringCase.Tests.csproj" />
+  <Project Path="StringCase/StringCase.csproj" />
+</Solution>
