@@ -5,3 +5,7 @@ obj/
 # OS generating files
 .DS_Store
 Thumbs.db
+
+# generated directories or files
+_site/
+api/
