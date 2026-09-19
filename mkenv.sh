@@ -10,6 +10,8 @@ dotnet new solution --name StringCase
 ## Make a project of a library
 dotnet new classlib --name StringCase --output StringCase
 dotnet solution StringCase.slnx add StringCase/StringCase.csproj
+awk '/<\/PropertyGroup>/{print "    <GenerateDocumentationFile>true</GenerateDocumentationFile>"}1' StringCase/StringCase.csproj > .tmp
+mv .tmp StringCase/StringCase.csproj
 
 ## Make a project for unit tests
 dotnet new xunit --name StringCase.Tests --output StringCase.Tests

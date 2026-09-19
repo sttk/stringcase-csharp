@@ -1,0 +1,20 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": ["StringCase/StringCase.csproj"]
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": ["api/**/*.yml"]
+      }
+    ],
+    "output": "_site"
+  }
+}
