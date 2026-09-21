@@ -22,6 +22,12 @@ test() {
   dotnet test "${PROJECT}.Tests/${PROJECT}.Tests.csproj"
 }
 
+bench() {
+  pushd StringCase.Benchmarks/
+  dotnet run -c Release
+  popd
+}
+
 deps() {
   dotnet package update
 }
@@ -88,6 +94,9 @@ else
       ;;
     test)
       test
+      ;;
+    bench)
+      bench
       ;;
     deps)
       deps

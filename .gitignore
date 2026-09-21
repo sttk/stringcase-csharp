@@ -1,11 +1,10 @@
-# dotnet
-bin/
-obj/
-
 # OS generating files
 .DS_Store
 Thumbs.db
 
 # generated directories or files
+bin/
+obj/
 _site/
 api/
+*.Artifacts/
