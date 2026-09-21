@@ -39,17 +39,17 @@ public struct Options
     /// </summary>
     /// <param name="separateBeforeNonAlphabets">The flag that specifies whether to treat the
     ///   beginning of a sequence of non-alphabetical characters as a word boundary.</param>
-    /// <param name="separateAfterNonAlphabets">The flag that specifies whether to treat the end of a
-    ///   sequence of non-alphabetical characters as a word boundary.</param>
+    /// <param name="separateAfterNonAlphabets">The flag that specifies whether to treat the end of
+    ///   a sequence of non-alphabetical characters as a word boundary.</param>
     /// <param name="separators">The symbol characters to be treated as word separators and removed
     ///   from the result string.</param>
     /// <param name="keep">The symbol characters to be treated as word separators and kept in the
     ///   result string.</param>
     public Options(
-        bool separateBeforeNonAlphabets,
-        bool separateAfterNonAlphabets,
-        string? separators,
-        string? keep
+        bool separateBeforeNonAlphabets = false,
+        bool separateAfterNonAlphabets = false,
+        string? separators = null,
+        string? keep = null
     )
     {
         this.SeparateBeforeNonAlphabets = separateBeforeNonAlphabets;
