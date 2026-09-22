@@ -2,8 +2,7 @@ namespace StringCase.Tests;
 
 public class StringCase_MacroCaseTest
 {
-    public
-    class MacroCase
+    public class MacroCase
     {
         [Fact]
         public void ConvertCamelCase()
@@ -89,11 +88,9 @@ public class StringCase_MacroCaseTest
         }
     }
 
-    public
-    class MacroCaseWithOptions
+    public class MacroCaseWithOptions
     {
-        public
-        class NonAlphabetsAsHeadOfWord
+        public class NonAlphabetsAsHeadOfWord
         {
             [Fact]
             public void ConvertCamelCase()
@@ -190,8 +187,7 @@ public class StringCase_MacroCaseTest
             }
         }
 
-        public
-        class NonAlphabetsAsTailOfWord
+        public class NonAlphabetsAsTailOfWord
         {
             [Fact]
             public void ConvertCamelCase()
@@ -288,8 +284,7 @@ public class StringCase_MacroCaseTest
             }
         }
 
-        public
-        class NonAlphabetsAsWord
+        public class NonAlphabetsAsWord
         {
             [Fact]
             public void ConvertCamelCase()
@@ -386,8 +381,7 @@ public class StringCase_MacroCaseTest
             }
         }
 
-        public
-        class NonAlphabetsPartAsWord
+        public class NonAlphabetsPartAsWord
         {
             [Fact]
             public void ConvertCamelCase()
@@ -484,8 +478,7 @@ public class StringCase_MacroCaseTest
             }
         }
 
-        public
-        class NonAlphabetsAsHeadOfWordAndWithSeparators
+        public class NonAlphabetsAsHeadOfWordAndWithSeparators
         {
             [Fact]
             public void ConvertCamelCase()
@@ -614,8 +607,7 @@ public class StringCase_MacroCaseTest
             }
         }
 
-        public
-        class NonAlphabetsAsTailOfWordAndWithSeparators
+        public class NonAlphabetsAsTailOfWordAndWithSeparators
         {
             [Fact]
             public void ConvertCamelCase()
@@ -744,8 +736,7 @@ public class StringCase_MacroCaseTest
             }
         }
 
-        public
-        class NonAlphabetsAsWordAndWithSeparators
+        public class NonAlphabetsAsWordAndWithSeparators
         {
             [Fact]
             public void ConvertCamelCase()
@@ -874,8 +865,7 @@ public class StringCase_MacroCaseTest
             }
         }
 
-        public
-        class NonAlphabetsAsPartOfWordAndWithSeparators
+        public class NonAlphabetsAsPartOfWordAndWithSeparators
         {
             [Fact]
             public void ConvertCamelCase()
@@ -1004,8 +994,7 @@ public class StringCase_MacroCaseTest
             }
         }
 
-        public
-        class NonAlphabetsAsHeadOfWordAndWithKeptCharacters
+        public class NonAlphabetsAsHeadOfWordAndWithKeptCharacters
         {
             [Fact]
             public void ConvertCamelCase()
@@ -1126,8 +1115,7 @@ public class StringCase_MacroCaseTest
             }
         }
 
-        public
-        class NonAlphabetsAsTailOfWordAndWithKeptCharacters
+        public class NonAlphabetsAsTailOfWordAndWithKeptCharacters
         {
             [Fact]
             public void ConvertCamelCase()
@@ -1248,8 +1236,7 @@ public class StringCase_MacroCaseTest
             }
         }
 
-        public
-        class NonAlphabetsAsWordAndWithKeptCharacters
+        public class NonAlphabetsAsWordAndWithKeptCharacters
         {
             [Fact]
             public void ConvertCamelCase()
@@ -1370,8 +1357,7 @@ public class StringCase_MacroCaseTest
             }
         }
 
-        public
-        class NonAlphabetsAsPartOfWordAndWithKeptCharacters
+        public class NonAlphabetsAsPartOfWordAndWithKeptCharacters
         {
             [Fact]
             public void ConvertCamelCase()
