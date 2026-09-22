@@ -1,0 +1,427 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: StringCase
+  name: StringCase
+  href: api/StringCase.html
+  commentId: N:StringCase
+  fullName: StringCase
+  nameWithType: StringCase
+- uid: StringCase.Options
+  name: Options
+  href: api/StringCase.Options.html
+  commentId: T:StringCase.Options
+  fullName: StringCase.Options
+  nameWithType: Options
+- uid: StringCase.Options.#ctor(System.Boolean,System.Boolean,System.String,System.String)
+  name: Options(bool, bool, string?, string?)
+  href: api/StringCase.Options.html#StringCase_Options__ctor_System_Boolean_System_Boolean_System_String_System_String_
+  commentId: M:StringCase.Options.#ctor(System.Boolean,System.Boolean,System.String,System.String)
+  name.vb: New(Boolean, Boolean, String, String)
+  fullName: StringCase.Options.Options(bool, bool, string?, string?)
+  fullName.vb: StringCase.Options.New(Boolean, Boolean, String, String)
+  nameWithType: Options.Options(bool, bool, string?, string?)
+  nameWithType.vb: Options.New(Boolean, Boolean, String, String)
+- uid: StringCase.Options.#ctor*
+  name: Options
+  href: api/StringCase.Options.html#StringCase_Options__ctor_
+  commentId: Overload:StringCase.Options.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: StringCase.Options.Options
+  fullName.vb: StringCase.Options.New
+  nameWithType: Options.Options
+  nameWithType.vb: Options.New
+- uid: StringCase.Options.Keep
+  name: Keep
+  href: api/StringCase.Options.html#StringCase_Options_Keep
+  commentId: F:StringCase.Options.Keep
+  fullName: StringCase.Options.Keep
+  nameWithType: Options.Keep
+- uid: StringCase.Options.SeparateAfterNonAlphabets
+  name: SeparateAfterNonAlphabets
+  href: api/StringCase.Options.html#StringCase_Options_SeparateAfterNonAlphabets
+  commentId: F:StringCase.Options.SeparateAfterNonAlphabets
+  fullName: StringCase.Options.SeparateAfterNonAlphabets
+  nameWithType: Options.SeparateAfterNonAlphabets
+- uid: StringCase.Options.SeparateBeforeNonAlphabets
+  name: SeparateBeforeNonAlphabets
+  href: api/StringCase.Options.html#StringCase_Options_SeparateBeforeNonAlphabets
+  commentId: F:StringCase.Options.SeparateBeforeNonAlphabets
+  fullName: StringCase.Options.SeparateBeforeNonAlphabets
+  nameWithType: Options.SeparateBeforeNonAlphabets
+- uid: StringCase.Options.Separators
+  name: Separators
+  href: api/StringCase.Options.html#StringCase_Options_Separators
+  commentId: F:StringCase.Options.Separators
+  fullName: StringCase.Options.Separators
+  nameWithType: Options.Separators
+- uid: StringCase.StringCase
+  name: StringCase
+  href: api/StringCase.StringCase.html
+  commentId: T:StringCase.StringCase
+  fullName: StringCase.StringCase
+  nameWithType: StringCase
+- uid: StringCase.StringCase.AdaCase(System.String)
+  name: AdaCase(string)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_AdaCase_System_String_
+  commentId: M:StringCase.StringCase.AdaCase(System.String)
+  name.vb: AdaCase(String)
+  fullName: StringCase.StringCase.AdaCase(string)
+  fullName.vb: StringCase.StringCase.AdaCase(String)
+  nameWithType: StringCase.AdaCase(string)
+  nameWithType.vb: StringCase.AdaCase(String)
+- uid: StringCase.StringCase.AdaCase*
+  name: AdaCase
+  href: api/StringCase.StringCase.html#StringCase_StringCase_AdaCase_
+  commentId: Overload:StringCase.StringCase.AdaCase
+  isSpec: "True"
+  fullName: StringCase.StringCase.AdaCase
+  nameWithType: StringCase.AdaCase
+- uid: StringCase.StringCase.AdaCaseWithOptions(System.String,StringCase.Options)
+  name: AdaCaseWithOptions(string, Options)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_AdaCaseWithOptions_System_String_StringCase_Options_
+  commentId: M:StringCase.StringCase.AdaCaseWithOptions(System.String,StringCase.Options)
+  name.vb: AdaCaseWithOptions(String, Options)
+  fullName: StringCase.StringCase.AdaCaseWithOptions(string, StringCase.Options)
+  fullName.vb: StringCase.StringCase.AdaCaseWithOptions(String, StringCase.Options)
+  nameWithType: StringCase.AdaCaseWithOptions(string, Options)
+  nameWithType.vb: StringCase.AdaCaseWithOptions(String, Options)
+- uid: StringCase.StringCase.AdaCaseWithOptions*
+  name: AdaCaseWithOptions
+  href: api/StringCase.StringCase.html#StringCase_StringCase_AdaCaseWithOptions_
+  commentId: Overload:StringCase.StringCase.AdaCaseWithOptions
+  isSpec: "True"
+  fullName: StringCase.StringCase.AdaCaseWithOptions
+  nameWithType: StringCase.AdaCaseWithOptions
+- uid: StringCase.StringCase.CamelCase(System.String)
+  name: CamelCase(string)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_CamelCase_System_String_
+  commentId: M:StringCase.StringCase.CamelCase(System.String)
+  name.vb: CamelCase(String)
+  fullName: StringCase.StringCase.CamelCase(string)
+  fullName.vb: StringCase.StringCase.CamelCase(String)
+  nameWithType: StringCase.CamelCase(string)
+  nameWithType.vb: StringCase.CamelCase(String)
+- uid: StringCase.StringCase.CamelCase*
+  name: CamelCase
+  href: api/StringCase.StringCase.html#StringCase_StringCase_CamelCase_
+  commentId: Overload:StringCase.StringCase.CamelCase
+  isSpec: "True"
+  fullName: StringCase.StringCase.CamelCase
+  nameWithType: StringCase.CamelCase
+- uid: StringCase.StringCase.CamelCaseWithOptions(System.String,StringCase.Options)
+  name: CamelCaseWithOptions(string, Options)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_CamelCaseWithOptions_System_String_StringCase_Options_
+  commentId: M:StringCase.StringCase.CamelCaseWithOptions(System.String,StringCase.Options)
+  name.vb: CamelCaseWithOptions(String, Options)
+  fullName: StringCase.StringCase.CamelCaseWithOptions(string, StringCase.Options)
+  fullName.vb: StringCase.StringCase.CamelCaseWithOptions(String, StringCase.Options)
+  nameWithType: StringCase.CamelCaseWithOptions(string, Options)
+  nameWithType.vb: StringCase.CamelCaseWithOptions(String, Options)
+- uid: StringCase.StringCase.CamelCaseWithOptions*
+  name: CamelCaseWithOptions
+  href: api/StringCase.StringCase.html#StringCase_StringCase_CamelCaseWithOptions_
+  commentId: Overload:StringCase.StringCase.CamelCaseWithOptions
+  isSpec: "True"
+  fullName: StringCase.StringCase.CamelCaseWithOptions
+  nameWithType: StringCase.CamelCaseWithOptions
+- uid: StringCase.StringCase.Capitalize(System.String,System.Char,StringCase.Options)
+  name: Capitalize(string, char, Options)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_Capitalize_System_String_System_Char_StringCase_Options_
+  commentId: M:StringCase.StringCase.Capitalize(System.String,System.Char,StringCase.Options)
+  name.vb: Capitalize(String, Char, Options)
+  fullName: StringCase.StringCase.Capitalize(string, char, StringCase.Options)
+  fullName.vb: StringCase.StringCase.Capitalize(String, Char, StringCase.Options)
+  nameWithType: StringCase.Capitalize(string, char, Options)
+  nameWithType.vb: StringCase.Capitalize(String, Char, Options)
+- uid: StringCase.StringCase.Capitalize(System.String,System.Text.Rune,StringCase.Options)
+  name: Capitalize(string, Rune, Options)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_Capitalize_System_String_System_Text_Rune_StringCase_Options_
+  commentId: M:StringCase.StringCase.Capitalize(System.String,System.Text.Rune,StringCase.Options)
+  name.vb: Capitalize(String, Rune, Options)
+  fullName: StringCase.StringCase.Capitalize(string, System.Text.Rune, StringCase.Options)
+  fullName.vb: StringCase.StringCase.Capitalize(String, System.Text.Rune, StringCase.Options)
+  nameWithType: StringCase.Capitalize(string, Rune, Options)
+  nameWithType.vb: StringCase.Capitalize(String, Rune, Options)
+- uid: StringCase.StringCase.Capitalize*
+  name: Capitalize
+  href: api/StringCase.StringCase.html#StringCase_StringCase_Capitalize_
+  commentId: Overload:StringCase.StringCase.Capitalize
+  isSpec: "True"
+  fullName: StringCase.StringCase.Capitalize
+  nameWithType: StringCase.Capitalize
+- uid: StringCase.StringCase.CobolCase(System.String)
+  name: CobolCase(string)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_CobolCase_System_String_
+  commentId: M:StringCase.StringCase.CobolCase(System.String)
+  name.vb: CobolCase(String)
+  fullName: StringCase.StringCase.CobolCase(string)
+  fullName.vb: StringCase.StringCase.CobolCase(String)
+  nameWithType: StringCase.CobolCase(string)
+  nameWithType.vb: StringCase.CobolCase(String)
+- uid: StringCase.StringCase.CobolCase*
+  name: CobolCase
+  href: api/StringCase.StringCase.html#StringCase_StringCase_CobolCase_
+  commentId: Overload:StringCase.StringCase.CobolCase
+  isSpec: "True"
+  fullName: StringCase.StringCase.CobolCase
+  nameWithType: StringCase.CobolCase
+- uid: StringCase.StringCase.CobolCaseWithOptions(System.String,StringCase.Options)
+  name: CobolCaseWithOptions(string, Options)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_CobolCaseWithOptions_System_String_StringCase_Options_
+  commentId: M:StringCase.StringCase.CobolCaseWithOptions(System.String,StringCase.Options)
+  name.vb: CobolCaseWithOptions(String, Options)
+  fullName: StringCase.StringCase.CobolCaseWithOptions(string, StringCase.Options)
+  fullName.vb: StringCase.StringCase.CobolCaseWithOptions(String, StringCase.Options)
+  nameWithType: StringCase.CobolCaseWithOptions(string, Options)
+  nameWithType.vb: StringCase.CobolCaseWithOptions(String, Options)
+- uid: StringCase.StringCase.CobolCaseWithOptions*
+  name: CobolCaseWithOptions
+  href: api/StringCase.StringCase.html#StringCase_StringCase_CobolCaseWithOptions_
+  commentId: Overload:StringCase.StringCase.CobolCaseWithOptions
+  isSpec: "True"
+  fullName: StringCase.StringCase.CobolCaseWithOptions
+  nameWithType: StringCase.CobolCaseWithOptions
+- uid: StringCase.StringCase.KebabCase(System.String)
+  name: KebabCase(string)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_KebabCase_System_String_
+  commentId: M:StringCase.StringCase.KebabCase(System.String)
+  name.vb: KebabCase(String)
+  fullName: StringCase.StringCase.KebabCase(string)
+  fullName.vb: StringCase.StringCase.KebabCase(String)
+  nameWithType: StringCase.KebabCase(string)
+  nameWithType.vb: StringCase.KebabCase(String)
+- uid: StringCase.StringCase.KebabCase*
+  name: KebabCase
+  href: api/StringCase.StringCase.html#StringCase_StringCase_KebabCase_
+  commentId: Overload:StringCase.StringCase.KebabCase
+  isSpec: "True"
+  fullName: StringCase.StringCase.KebabCase
+  nameWithType: StringCase.KebabCase
+- uid: StringCase.StringCase.KebabCaseWithOptions(System.String,StringCase.Options)
+  name: KebabCaseWithOptions(string, Options)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_KebabCaseWithOptions_System_String_StringCase_Options_
+  commentId: M:StringCase.StringCase.KebabCaseWithOptions(System.String,StringCase.Options)
+  name.vb: KebabCaseWithOptions(String, Options)
+  fullName: StringCase.StringCase.KebabCaseWithOptions(string, StringCase.Options)
+  fullName.vb: StringCase.StringCase.KebabCaseWithOptions(String, StringCase.Options)
+  nameWithType: StringCase.KebabCaseWithOptions(string, Options)
+  nameWithType.vb: StringCase.KebabCaseWithOptions(String, Options)
+- uid: StringCase.StringCase.KebabCaseWithOptions*
+  name: KebabCaseWithOptions
+  href: api/StringCase.StringCase.html#StringCase_StringCase_KebabCaseWithOptions_
+  commentId: Overload:StringCase.StringCase.KebabCaseWithOptions
+  isSpec: "True"
+  fullName: StringCase.StringCase.KebabCaseWithOptions
+  nameWithType: StringCase.KebabCaseWithOptions
+- uid: StringCase.StringCase.Lowerize(System.String,System.Char,StringCase.Options)
+  name: Lowerize(string, char, Options)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_Lowerize_System_String_System_Char_StringCase_Options_
+  commentId: M:StringCase.StringCase.Lowerize(System.String,System.Char,StringCase.Options)
+  name.vb: Lowerize(String, Char, Options)
+  fullName: StringCase.StringCase.Lowerize(string, char, StringCase.Options)
+  fullName.vb: StringCase.StringCase.Lowerize(String, Char, StringCase.Options)
+  nameWithType: StringCase.Lowerize(string, char, Options)
+  nameWithType.vb: StringCase.Lowerize(String, Char, Options)
+- uid: StringCase.StringCase.Lowerize(System.String,System.Text.Rune,StringCase.Options)
+  name: Lowerize(string, Rune, Options)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_Lowerize_System_String_System_Text_Rune_StringCase_Options_
+  commentId: M:StringCase.StringCase.Lowerize(System.String,System.Text.Rune,StringCase.Options)
+  name.vb: Lowerize(String, Rune, Options)
+  fullName: StringCase.StringCase.Lowerize(string, System.Text.Rune, StringCase.Options)
+  fullName.vb: StringCase.StringCase.Lowerize(String, System.Text.Rune, StringCase.Options)
+  nameWithType: StringCase.Lowerize(string, Rune, Options)
+  nameWithType.vb: StringCase.Lowerize(String, Rune, Options)
+- uid: StringCase.StringCase.Lowerize*
+  name: Lowerize
+  href: api/StringCase.StringCase.html#StringCase_StringCase_Lowerize_
+  commentId: Overload:StringCase.StringCase.Lowerize
+  isSpec: "True"
+  fullName: StringCase.StringCase.Lowerize
+  nameWithType: StringCase.Lowerize
+- uid: StringCase.StringCase.MacroCase(System.String)
+  name: MacroCase(string)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_MacroCase_System_String_
+  commentId: M:StringCase.StringCase.MacroCase(System.String)
+  name.vb: MacroCase(String)
+  fullName: StringCase.StringCase.MacroCase(string)
+  fullName.vb: StringCase.StringCase.MacroCase(String)
+  nameWithType: StringCase.MacroCase(string)
+  nameWithType.vb: StringCase.MacroCase(String)
+- uid: StringCase.StringCase.MacroCase*
+  name: MacroCase
+  href: api/StringCase.StringCase.html#StringCase_StringCase_MacroCase_
+  commentId: Overload:StringCase.StringCase.MacroCase
+  isSpec: "True"
+  fullName: StringCase.StringCase.MacroCase
+  nameWithType: StringCase.MacroCase
+- uid: StringCase.StringCase.MacroCaseWithOptions(System.String,StringCase.Options)
+  name: MacroCaseWithOptions(string, Options)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_MacroCaseWithOptions_System_String_StringCase_Options_
+  commentId: M:StringCase.StringCase.MacroCaseWithOptions(System.String,StringCase.Options)
+  name.vb: MacroCaseWithOptions(String, Options)
+  fullName: StringCase.StringCase.MacroCaseWithOptions(string, StringCase.Options)
+  fullName.vb: StringCase.StringCase.MacroCaseWithOptions(String, StringCase.Options)
+  nameWithType: StringCase.MacroCaseWithOptions(string, Options)
+  nameWithType.vb: StringCase.MacroCaseWithOptions(String, Options)
+- uid: StringCase.StringCase.MacroCaseWithOptions*
+  name: MacroCaseWithOptions
+  href: api/StringCase.StringCase.html#StringCase_StringCase_MacroCaseWithOptions_
+  commentId: Overload:StringCase.StringCase.MacroCaseWithOptions
+  isSpec: "True"
+  fullName: StringCase.StringCase.MacroCaseWithOptions
+  nameWithType: StringCase.MacroCaseWithOptions
+- uid: StringCase.StringCase.PascalCase(System.String)
+  name: PascalCase(string)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_PascalCase_System_String_
+  commentId: M:StringCase.StringCase.PascalCase(System.String)
+  name.vb: PascalCase(String)
+  fullName: StringCase.StringCase.PascalCase(string)
+  fullName.vb: StringCase.StringCase.PascalCase(String)
+  nameWithType: StringCase.PascalCase(string)
+  nameWithType.vb: StringCase.PascalCase(String)
+- uid: StringCase.StringCase.PascalCase*
+  name: PascalCase
+  href: api/StringCase.StringCase.html#StringCase_StringCase_PascalCase_
+  commentId: Overload:StringCase.StringCase.PascalCase
+  isSpec: "True"
+  fullName: StringCase.StringCase.PascalCase
+  nameWithType: StringCase.PascalCase
+- uid: StringCase.StringCase.PascalCaseWithOptions(System.String,StringCase.Options)
+  name: PascalCaseWithOptions(string, Options)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_PascalCaseWithOptions_System_String_StringCase_Options_
+  commentId: M:StringCase.StringCase.PascalCaseWithOptions(System.String,StringCase.Options)
+  name.vb: PascalCaseWithOptions(String, Options)
+  fullName: StringCase.StringCase.PascalCaseWithOptions(string, StringCase.Options)
+  fullName.vb: StringCase.StringCase.PascalCaseWithOptions(String, StringCase.Options)
+  nameWithType: StringCase.PascalCaseWithOptions(string, Options)
+  nameWithType.vb: StringCase.PascalCaseWithOptions(String, Options)
+- uid: StringCase.StringCase.PascalCaseWithOptions*
+  name: PascalCaseWithOptions
+  href: api/StringCase.StringCase.html#StringCase_StringCase_PascalCaseWithOptions_
+  commentId: Overload:StringCase.StringCase.PascalCaseWithOptions
+  isSpec: "True"
+  fullName: StringCase.StringCase.PascalCaseWithOptions
+  nameWithType: StringCase.PascalCaseWithOptions
+- uid: StringCase.StringCase.SnakeCase(System.String)
+  name: SnakeCase(string)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_SnakeCase_System_String_
+  commentId: M:StringCase.StringCase.SnakeCase(System.String)
+  name.vb: SnakeCase(String)
+  fullName: StringCase.StringCase.SnakeCase(string)
+  fullName.vb: StringCase.StringCase.SnakeCase(String)
+  nameWithType: StringCase.SnakeCase(string)
+  nameWithType.vb: StringCase.SnakeCase(String)
+- uid: StringCase.StringCase.SnakeCase*
+  name: SnakeCase
+  href: api/StringCase.StringCase.html#StringCase_StringCase_SnakeCase_
+  commentId: Overload:StringCase.StringCase.SnakeCase
+  isSpec: "True"
+  fullName: StringCase.StringCase.SnakeCase
+  nameWithType: StringCase.SnakeCase
+- uid: StringCase.StringCase.SnakeCaseWithOptions(System.String,StringCase.Options)
+  name: SnakeCaseWithOptions(string, Options)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_SnakeCaseWithOptions_System_String_StringCase_Options_
+  commentId: M:StringCase.StringCase.SnakeCaseWithOptions(System.String,StringCase.Options)
+  name.vb: SnakeCaseWithOptions(String, Options)
+  fullName: StringCase.StringCase.SnakeCaseWithOptions(string, StringCase.Options)
+  fullName.vb: StringCase.StringCase.SnakeCaseWithOptions(String, StringCase.Options)
+  nameWithType: StringCase.SnakeCaseWithOptions(string, Options)
+  nameWithType.vb: StringCase.SnakeCaseWithOptions(String, Options)
+- uid: StringCase.StringCase.SnakeCaseWithOptions*
+  name: SnakeCaseWithOptions
+  href: api/StringCase.StringCase.html#StringCase_StringCase_SnakeCaseWithOptions_
+  commentId: Overload:StringCase.StringCase.SnakeCaseWithOptions
+  isSpec: "True"
+  fullName: StringCase.StringCase.SnakeCaseWithOptions
+  nameWithType: StringCase.SnakeCaseWithOptions
+- uid: StringCase.StringCase.TitleCase(System.String)
+  name: TitleCase(string)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_TitleCase_System_String_
+  commentId: M:StringCase.StringCase.TitleCase(System.String)
+  name.vb: TitleCase(String)
+  fullName: StringCase.StringCase.TitleCase(string)
+  fullName.vb: StringCase.StringCase.TitleCase(String)
+  nameWithType: StringCase.TitleCase(string)
+  nameWithType.vb: StringCase.TitleCase(String)
+- uid: StringCase.StringCase.TitleCase*
+  name: TitleCase
+  href: api/StringCase.StringCase.html#StringCase_StringCase_TitleCase_
+  commentId: Overload:StringCase.StringCase.TitleCase
+  isSpec: "True"
+  fullName: StringCase.StringCase.TitleCase
+  nameWithType: StringCase.TitleCase
+- uid: StringCase.StringCase.TitleCaseWithOptions(System.String,StringCase.Options)
+  name: TitleCaseWithOptions(string, Options)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_TitleCaseWithOptions_System_String_StringCase_Options_
+  commentId: M:StringCase.StringCase.TitleCaseWithOptions(System.String,StringCase.Options)
+  name.vb: TitleCaseWithOptions(String, Options)
+  fullName: StringCase.StringCase.TitleCaseWithOptions(string, StringCase.Options)
+  fullName.vb: StringCase.StringCase.TitleCaseWithOptions(String, StringCase.Options)
+  nameWithType: StringCase.TitleCaseWithOptions(string, Options)
+  nameWithType.vb: StringCase.TitleCaseWithOptions(String, Options)
+- uid: StringCase.StringCase.TitleCaseWithOptions*
+  name: TitleCaseWithOptions
+  href: api/StringCase.StringCase.html#StringCase_StringCase_TitleCaseWithOptions_
+  commentId: Overload:StringCase.StringCase.TitleCaseWithOptions
+  isSpec: "True"
+  fullName: StringCase.StringCase.TitleCaseWithOptions
+  nameWithType: StringCase.TitleCaseWithOptions
+- uid: StringCase.StringCase.TrainCase(System.String)
+  name: TrainCase(string)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_TrainCase_System_String_
+  commentId: M:StringCase.StringCase.TrainCase(System.String)
+  name.vb: TrainCase(String)
+  fullName: StringCase.StringCase.TrainCase(string)
+  fullName.vb: StringCase.StringCase.TrainCase(String)
+  nameWithType: StringCase.TrainCase(string)
+  nameWithType.vb: StringCase.TrainCase(String)
+- uid: StringCase.StringCase.TrainCase*
+  name: TrainCase
+  href: api/StringCase.StringCase.html#StringCase_StringCase_TrainCase_
+  commentId: Overload:StringCase.StringCase.TrainCase
+  isSpec: "True"
+  fullName: StringCase.StringCase.TrainCase
+  nameWithType: StringCase.TrainCase
+- uid: StringCase.StringCase.TrainCaseWithOptions(System.String,StringCase.Options)
+  name: TrainCaseWithOptions(string, Options)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_TrainCaseWithOptions_System_String_StringCase_Options_
+  commentId: M:StringCase.StringCase.TrainCaseWithOptions(System.String,StringCase.Options)
+  name.vb: TrainCaseWithOptions(String, Options)
+  fullName: StringCase.StringCase.TrainCaseWithOptions(string, StringCase.Options)
+  fullName.vb: StringCase.StringCase.TrainCaseWithOptions(String, StringCase.Options)
+  nameWithType: StringCase.TrainCaseWithOptions(string, Options)
+  nameWithType.vb: StringCase.TrainCaseWithOptions(String, Options)
+- uid: StringCase.StringCase.TrainCaseWithOptions*
+  name: TrainCaseWithOptions
+  href: api/StringCase.StringCase.html#StringCase_StringCase_TrainCaseWithOptions_
+  commentId: Overload:StringCase.StringCase.TrainCaseWithOptions
+  isSpec: "True"
+  fullName: StringCase.StringCase.TrainCaseWithOptions
+  nameWithType: StringCase.TrainCaseWithOptions
+- uid: StringCase.StringCase.Upperize(System.String,System.Char,StringCase.Options)
+  name: Upperize(string, char, Options)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_Upperize_System_String_System_Char_StringCase_Options_
+  commentId: M:StringCase.StringCase.Upperize(System.String,System.Char,StringCase.Options)
+  name.vb: Upperize(String, Char, Options)
+  fullName: StringCase.StringCase.Upperize(string, char, StringCase.Options)
+  fullName.vb: StringCase.StringCase.Upperize(String, Char, StringCase.Options)
+  nameWithType: StringCase.Upperize(string, char, Options)
+  nameWithType.vb: StringCase.Upperize(String, Char, Options)
+- uid: StringCase.StringCase.Upperize(System.String,System.Text.Rune,StringCase.Options)
+  name: Upperize(string, Rune, Options)
+  href: api/StringCase.StringCase.html#StringCase_StringCase_Upperize_System_String_System_Text_Rune_StringCase_Options_
+  commentId: M:StringCase.StringCase.Upperize(System.String,System.Text.Rune,StringCase.Options)
+  name.vb: Upperize(String, Rune, Options)
+  fullName: StringCase.StringCase.Upperize(string, System.Text.Rune, StringCase.Options)
+  fullName.vb: StringCase.StringCase.Upperize(String, System.Text.Rune, StringCase.Options)
+  nameWithType: StringCase.Upperize(string, Rune, Options)
+  nameWithType.vb: StringCase.Upperize(String, Rune, Options)
+- uid: StringCase.StringCase.Upperize*
+  name: Upperize
+  href: api/StringCase.StringCase.html#StringCase_StringCase_Upperize_
+  commentId: Overload:StringCase.StringCase.Upperize
+  isSpec: "True"
+  fullName: StringCase.StringCase.Upperize
+  nameWithType: StringCase.Upperize

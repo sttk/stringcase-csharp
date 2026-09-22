@@ -1,0 +1,66 @@
+{
+  "source_base_path": "/home/runner/work/stringcase-csharp/stringcase-csharp",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StringCase.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StringCase.Options.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "StringCase.Options",
+      "Summary": "<p sourcefile=\"api/StringCase.Options.yml\" sourcestartlinenumber=\"1\">Is a class that represents options which specifies the ways of case conversion of strings.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StringCase.StringCase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StringCase.StringCase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "StringCase.StringCase",
+      "Summary": "<p sourcefile=\"api/StringCase.StringCase.yml\" sourcestartlinenumber=\"1\">Is the class that provides the static methods to convert a string to following cases.</p>\n<ul>\n  <li>Ada_Case</li>\n  <li>camelCase</li>\n  <li>COBOL-CASE</li>\n  <li>kebab-case</li>\n  <li>MACRO_CASE</li>\n  <li>PascalCase</li>\n  <li>snake_case</li>\n  <li>Title Case</li>\n  <li>Train-Case</li>\n</ul>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StringCase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StringCase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "StringCase",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
