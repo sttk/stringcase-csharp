@@ -20,8 +20,8 @@ public class StringCase_Options
             var opts = new Options(separateBeforeNonAlphabets: true);
             Assert.Equal(opts.SeparateBeforeNonAlphabets, true);
             Assert.Equal(opts.SeparateAfterNonAlphabets, false);
-            Assert.Equal(opts.Separators, null);
-            Assert.Equal(opts.Keep, null);
+            Assert.Null(opts.Separators);
+            Assert.Null(opts.Keep);
         }
 
         [Fact]
@@ -30,8 +30,8 @@ public class StringCase_Options
             var opts = new Options(separateAfterNonAlphabets: true);
             Assert.Equal(opts.SeparateBeforeNonAlphabets, false);
             Assert.Equal(opts.SeparateAfterNonAlphabets, true);
-            Assert.Equal(opts.Separators, null);
-            Assert.Equal(opts.Keep, null);
+            Assert.Null(opts.Separators);
+            Assert.Null(opts.Keep);
         }
 
         [Fact]
@@ -41,7 +41,7 @@ public class StringCase_Options
             Assert.Equal(opts.SeparateBeforeNonAlphabets, false);
             Assert.Equal(opts.SeparateAfterNonAlphabets, false);
             Assert.Equal(opts.Separators, "-_");
-            Assert.Equal(opts.Keep, null);
+            Assert.Null(opts.Keep);
         }
 
         [Fact]
@@ -50,7 +50,7 @@ public class StringCase_Options
             var opts = new Options(keep: "-_");
             Assert.Equal(opts.SeparateBeforeNonAlphabets, false);
             Assert.Equal(opts.SeparateAfterNonAlphabets, false);
-            Assert.Equal(opts.Separators, null);
+            Assert.Null(opts.Separators);
             Assert.Equal(opts.Keep, "-_");
         }
 

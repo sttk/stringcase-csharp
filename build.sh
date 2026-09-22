@@ -33,6 +33,7 @@ deps() {
 }
 
 native_test() {
+  export DOTNET_CLI_UI_LANGUAGE=en
   OS="$(uname -s)"
   ARCH="$(uname -m)"
   case "$OS" in
