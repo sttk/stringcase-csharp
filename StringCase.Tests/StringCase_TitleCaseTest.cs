@@ -88,7 +88,7 @@ public class StringCase_TitleCaseTest
         }
     }
 
-    public class TrainCaseWithOptions
+    public class TitleCaseWithOptions
     {
         public class NonAlphabetsAsHeadOfWord
         {
