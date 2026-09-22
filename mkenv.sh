@@ -8,13 +8,14 @@
 dotnet new solution --name StringCase
 
 ## Make a project of a library
-dotnet new classlib --name StringCase --output StringCase
+dotnet new classlib --name StringCase --output StringCase --framework net10.0
 dotnet solution StringCase.slnx add StringCase/StringCase.csproj
 awk '/<\/PropertyGroup>/{print "    <GenerateDocumentationFile>true</GenerateDocumentationFile>"}1' StringCase/StringCase.csproj > .tmp
 mv .tmp StringCase/StringCase.csproj
 
 ## Make a project for unit tests
-dotnet new xunit --name StringCase.Tests --output StringCase.Tests
+dotnet new install xunit.v3.templates
+dotnet new xunit3 --name StringCase.Tests --output StringCase.Tests --framework net10.0
 dotnet solution StringCase.slnx add StringCase.Tests/StringCase.Tests.csproj
 dotnet add StringCase.Tests/StringCase.Tests.csproj reference StringCase/StringCase.csproj
 

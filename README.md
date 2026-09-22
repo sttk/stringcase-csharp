@@ -77,6 +77,30 @@ string output = StringCase.Capitalize(input, '.', opts);
 Console.WriteLine(snake);  // => "Foo.Bar.123.Baz"
 ```
 
+## Native build
+
+This library supports native build.
+
+### Actually test results
+
+```
+% ./build.sh native-test
+Restore complete (0.7s)
+    Determining projects to restore...
+    All projects are up-to-date for restore.
+  StringCase net10.0 succeeded (0.1s) → StringCase/bin/Release/net10.0/StringCase.dll
+  StringCase.NativeTests net10.0 osx-x64 succeeded (1.9s) → StringCase.NativeTests/bin/Release/net10.0/osx-x64/publish/
+
+Build succeeded in 3.6s
+xUnit.net v3 In-Process Runner v4.0.1+8ed8aa354c [native/osx-x64] (.NET 10.0.12)
+  Discovering: StringCase.NativeTests
+  Discovered:  StringCase.NativeTests
+  Starting:    StringCase.NativeTests
+  Finished:    StringCase.NativeTests (ID = '7c9d899a8a0c67345e61bfa2d0a3e64e2ec5aecd11fee42f72a87286073b8916')
+=== TEST EXECUTION SUMMARY ===
+   StringCase.NativeTests  Total: 1737, Errors: 0, Failed: 0, Skipped: 0, Not Run: 0, Time: 0.041s
+```
+
 ## License
 
 Copyright (C) 2026 Takayuki Sato
