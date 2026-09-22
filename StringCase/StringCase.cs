@@ -288,7 +288,7 @@ public static class StringCase
     ///   separation rules.</param>
     /// <returns>The converted string.</returns>
     ///
-    public static String Lowerize(String input, char joiner, Options opts)
+    public static string Lowerize(string input, char joiner, Options opts)
     {
         return Lowerize(input, new Rune(joiner), opts);
     }
@@ -330,7 +330,7 @@ public static class StringCase
     /// <param name="opts">The <see cref="Options"/> object which holds the fields to customize
     ///   separation rules.</param>
     /// <returns>The converted string.</returns>
-    public static String Lowerize(String input, Rune joiner, Options opts)
+    public static string Lowerize(string input, Rune joiner, Options opts)
     {
         var result = new StringBuilder(input.Length);
 
@@ -503,7 +503,7 @@ public static class StringCase
     ///   separation rules.</param>
     /// <returns>The converted string.</returns>
     ///
-    public static String Capitalize(String input, char joiner, Options opts)
+    public static string Capitalize(string input, char joiner, Options opts)
     {
         return Capitalize(input, new Rune(joiner), opts);
     }
@@ -545,7 +545,7 @@ public static class StringCase
     /// <param name="opts">The <see cref="Options"/> object which holds the fields to customize
     ///   separation rules.</param>
     /// <returns>The converted string.</returns>
-    public static String Capitalize(String input, Rune joiner, Options opts)
+    public static string Capitalize(string input, Rune joiner, Options opts)
     {
         var result = new StringBuilder(input.Length);
 
@@ -695,7 +695,7 @@ public static class StringCase
     /// <param name="input">The input string.</param>
     /// <param name="opts">The options which specifies the ways of case conversion.</param>
     /// <returns>A string converted to camel case.</returns>
-    public static String CamelCaseWithOptions(String input, Options opts)
+    public static string CamelCaseWithOptions(string input, Options opts)
     {
         var result = new StringBuilder(input.Length);
 
@@ -817,7 +817,7 @@ public static class StringCase
     ///
     /// <param name="input">The input string.</param>
     /// <returns>A string converted to camel case.</returns>
-    public static String CamelCase(String input)
+    public static string CamelCase(string input)
     {
         return CamelCaseWithOptions(input, new Options(false, true, null, null));
     }
@@ -829,7 +829,7 @@ public static class StringCase
     /// <param name="input">The input string.</param>
     /// <param name="opts">The options which specifies the ways of case conversion.</param>
     /// <returns>A string converted to cobol case.</returns>
-    public static String CobolCaseWithOptions(String input, Options opts)
+    public static string CobolCaseWithOptions(string input, Options opts)
     {
         return Upperize(input, '-', opts);
     }
@@ -843,7 +843,7 @@ public static class StringCase
     ///
     /// <param name="input">The input string.</param>
     /// <returns>A string converted to cobol case.</returns>
-    public static String CobolCase(String input)
+    public static string CobolCase(string input)
     {
         return Upperize(input, '-', new Options(false, true, null, null));
     }
@@ -855,7 +855,7 @@ public static class StringCase
     /// <param name="input">The input string.</param>
     /// <param name="opts">The options which specifies the ways of case conversion.</param>
     /// <returns>A string converted to kebab case.</returns>
-    public static String KebabCaseWithOptions(String input, Options opts)
+    public static string KebabCaseWithOptions(string input, Options opts)
     {
         return Lowerize(input, '-', opts);
     }
@@ -869,7 +869,7 @@ public static class StringCase
     ///
     /// <param name="input">The input string.</param>
     /// <returns>A string converted to kebab case.</returns>
-    public static String KebabCase(String input)
+    public static string KebabCase(string input)
     {
         return Lowerize(input, '-', new Options(false, true, null, null));
     }
@@ -881,7 +881,7 @@ public static class StringCase
     /// <param name="input">The input string.</param>
     /// <param name="opts">The options which specifies the ways of case conversion.</param>
     /// <returns>A string converted to macro case.</returns>
-    public static String MacroCaseWithOptions(String input, Options opts)
+    public static string MacroCaseWithOptions(string input, Options opts)
     {
         return Upperize(input, '_', opts);
     }
@@ -895,7 +895,7 @@ public static class StringCase
     ///
     /// <param name="input">The input string.</param>
     /// <returns>A string converted to macro case.</returns>
-    public static String MacroCase(String input)
+    public static string MacroCase(string input)
     {
         return Upperize(input, '_', new Options(false, true, null, null));
     }
@@ -907,7 +907,7 @@ public static class StringCase
     /// <param name="input">The input string.</param>
     /// <param name="opts">The options which specifies the ways of case conversion.</param>
     /// <returns>A string converted to pascal case.</returns>
-    public static String PascalCaseWithOptions(String input, Options opts)
+    public static string PascalCaseWithOptions(string input, Options opts)
     {
         var result = new StringBuilder(input.Length);
 
@@ -1028,7 +1028,7 @@ public static class StringCase
     ///
     /// @param input The input string.
     /// @return A string converted to pascal case.
-    public static String PascalCase(String input)
+    public static string PascalCase(string input)
     {
         return PascalCaseWithOptions(input, new Options(false, true, null, null));
     }
@@ -1040,7 +1040,7 @@ public static class StringCase
     /// <param name="input">The input string.</param>
     /// <param name="opts">The options which specifies the ways of case conversion.</param>
     /// <returns>A string converted to snake case.</returns>
-    public static String SnakeCaseWithOptions(String input, Options opts)
+    public static string SnakeCaseWithOptions(string input, Options opts)
     {
         return Lowerize(input, '_', opts);
     }
@@ -1054,7 +1054,7 @@ public static class StringCase
     ///
     /// <param name="input">The input string.</param>
     /// <returns>A string converted to snake case.</returns>
-    public static String SnakeCase(String input)
+    public static string SnakeCase(string input)
     {
         return Lowerize(input, '_', new Options(false, true, null, null));
     }
@@ -1067,7 +1067,7 @@ public static class StringCase
     /// <param name="opts">The options which specifies the ways of case conversion.</param>
     /// <returns>A string converted to train case.</returns>
     ///
-    public static String TrainCaseWithOptions(String input, Options opts)
+    public static string TrainCaseWithOptions(string input, Options opts)
     {
         return Capitalize(input, '-', opts);
     }
@@ -1082,7 +1082,7 @@ public static class StringCase
     /// <param name="input">The input string.</param>
     /// <returns>A string converted to train case.</returns>
     ///
-    public static String TrainCase(String input)
+    public static string TrainCase(string input)
     {
         return Capitalize(input, '-', new Options(false, true, null, null));
     }
@@ -1094,7 +1094,7 @@ public static class StringCase
     /// <param name="input">The input string.</param>
     /// <param name="opts">The options which specifies the ways of case conversion.</param>
     /// <returns>A string converted to Ada case.</returns>
-    public static String AdaCaseWithOptions(String input, Options opts)
+    public static string AdaCaseWithOptions(string input, Options opts)
     {
         return Capitalize(input, '_', opts);
     }
@@ -1108,7 +1108,7 @@ public static class StringCase
     ///
     /// <param name="input">The input string.</param>
     /// <returns>A string converted to Ada case.</returns>
-    public static String AdaCase(String input)
+    public static string AdaCase(string input)
     {
         return Capitalize(input, '_', new Options(false, true, null, null));
     }
@@ -1120,7 +1120,7 @@ public static class StringCase
     /// <param name="input">The input string.</param>
     /// <param name="opts">The options which specifies the ways of case conversion.</param>
     /// <returns>A string converted to title case.</returns>
-    public static String TitleCaseWithOptions(String input, Options opts)
+    public static string TitleCaseWithOptions(string input, Options opts)
     {
         return Capitalize(input, ' ', opts);
     }
@@ -1134,7 +1134,7 @@ public static class StringCase
     ///
     /// <param name="input">The input string.</param>
     /// <returns>A string converted to title case.</returns>
-    public static String TitleCase(String input)
+    public static string TitleCase(string input)
     {
         return Capitalize(input, ' ', new Options(false, true, null, null));
     }
