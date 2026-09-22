@@ -15,8 +15,7 @@ jobs:
     - uses: actions/setup-dotnet@v6
       with:
         dotnet-version: '10.0.x'
-    - run: ./build.sh build
-    - run: ./build.sh doc
+    - run: ./build.sh compile doc
     - uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
