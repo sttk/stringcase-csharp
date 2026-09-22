@@ -32,6 +32,10 @@ deps() {
   dotnet package update
 }
 
+pack() {
+  dotnet pack StringCase/StringCase.csproj -c Release
+}
+
 native_test() {
   export DOTNET_CLI_UI_LANGUAGE=en
   OS="$(uname -s)"
@@ -101,6 +105,9 @@ else
       ;;
     deps)
       deps
+      ;;
+    pack)
+      pack
       ;;
     native-test)
       native_test

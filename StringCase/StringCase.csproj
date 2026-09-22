@@ -7,4 +7,24 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <PackageVersion>0.1.0</PackageVersion>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <PackageId>StringCase</PackageId>
+    <Authors>Takayuki Sato</Authors>
+    <Description>Converts string cases between Ada_Case, camelCase, COBOL-CASE, kebab-case, MACRO_CASE, PascalCase, snake_case, TitleCase, and Train-Case.</Description>
+    <Copyright>Copyright (C) 2026 Takayuki Sato</Copyright>
+    <PackageProjectUrl>https://github.com/sttk/stringcase-csharp</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/sttk/stringcase-csharp</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>case ada camel cobol kebab macro pascal snake title train</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="\" />
+    <None Include="../LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
 </Project>
