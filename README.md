@@ -112,7 +112,7 @@ See the file LICENSE in this distribution for more details.
 [repo-url]: https://github.com/sttk/stringcase-csharp
 [nuget-img]: https://img.shields.io/badge/NuGet-0.1.0-6600ff.svg
 [nuget-url]: https://nuget.org/packages/StringCase
-[ci-img]: https://github.com/sttk/stringcase-csharp/actions/workflows/csharp-ci.yml/badge.svg?branch=main
+[ci-img]: https://github.com/sttk/stringcase-csharp/actions/workflows/csharp.yml/badge.svg?branch=main
 [ci-url]: https://github.com/sttk/stringcase-csharp/actions?query=branch%3Amain
 [mit-img]: https://img.shields.io/badge/license-MIT-green.svg
 [mit-url]: https://opensource.org/licenses/MIT
