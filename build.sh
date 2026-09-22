@@ -32,6 +32,10 @@ deps() {
   dotnet package update
 }
 
+doc() {
+  docfx docfx.json
+}
+
 pack() {
   dotnet pack StringCase/StringCase.csproj -c Release
 }
@@ -105,6 +109,9 @@ else
       ;;
     deps)
       deps
+      ;;
+    doc)
+      doc
       ;;
     pack)
       pack

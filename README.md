@@ -1,4 +1,4 @@
-# [StringCase][repo-url] [![NuGet Repository][nuget-img]][nuget-url] [![CI Status][ci-img]][ci-url] [![MIT license][mit-img]][mit-url]
+# [StringCase][repo-url] [![NuGet Repository][nuget-img]][nuget-url] [![GitHub.io][io-img]][io-url] [![CI Status][ci-img]][ci-url] [![MIT license][mit-img]][mit-url]
 
 This library provides some static methods of `StringCase` static class that convert string cases
 between Ada_Case, camelCase, COBOL-CASE, kebab-case, MACRO_CASE, PascalCase, snake_case,
@@ -114,5 +114,7 @@ See the file LICENSE in this distribution for more details.
 [nuget-url]: https://nuget.org/packages/StringCase
 [ci-img]: https://github.com/sttk/stringcase-csharp/actions/workflows/csharp.yml/badge.svg?branch=main
 [ci-url]: https://github.com/sttk/stringcase-csharp/actions?query=branch%3Amain
+[io-img]: https://img.shields.io/badge/github.io-docfx-4c69fd.svg
+[io-url]: https://sttk.github.io/stringcase-csharp/StringCase.html
 [mit-img]: https://img.shields.io/badge/license-MIT-green.svg
 [mit-url]: https://opensource.org/licenses/MIT
