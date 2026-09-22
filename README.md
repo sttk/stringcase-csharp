@@ -115,6 +115,6 @@ See the file LICENSE in this distribution for more details.
 [ci-img]: https://github.com/sttk/stringcase-csharp/actions/workflows/csharp.yml/badge.svg?branch=main
 [ci-url]: https://github.com/sttk/stringcase-csharp/actions?query=branch%3Amain
 [io-img]: https://img.shields.io/badge/github.io-docfx-4c69fd.svg
-[io-url]: https://sttk.github.io/stringcase-csharp/StringCase.html
+[io-url]: https://sttk.github.io/stringcase-csharp/api/StringCase.html
 [mit-img]: https://img.shields.io/badge/license-MIT-green.svg
 [mit-url]: https://opensource.org/licenses/MIT
