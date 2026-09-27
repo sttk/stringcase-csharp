@@ -23,7 +23,7 @@ test() {
 }
 
 bench() {
-  pushd StringCase.Benchmarks/
+  pushd "${PROJECT}.Benchmarks"
   dotnet run -c Release
   popd
 }
@@ -37,7 +37,7 @@ doc() {
 }
 
 pack() {
-  dotnet pack StringCase/StringCase.csproj -c Release
+  dotnet pack "${PROJECT}/${PROJECT}.csproj" -c Release
 }
 
 native_test() {
