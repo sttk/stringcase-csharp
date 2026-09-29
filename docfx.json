@@ -6,13 +6,24 @@
           "files": ["StringCase/StringCase.csproj"]
         }
       ],
-      "dest": "api"
+      "dest": "_site/api_yml"
     }
   ],
   "build": {
     "content": [
       {
-        "files": ["api/**/*.yml"]
+        "files": ["**/*.yml"],
+        "src": "_site/api_yml",
+        "dest": "api"
+      },
+      {
+        "files": ["**/*.md", "toc.yml"],
+        "exclude": ["obj/**", "_site/api/**"]
+      }
+    ],
+    "resource": [
+      {
+        "files": "**/images/**",
       }
     ],
     "output": "_site"
