@@ -4,33 +4,36 @@
 # Make a development environement of a C# project.
 #
 
+readonly DOTNETVER=net10.0
+readonly PROJECT=StringCase
+
 ## Make a new solution
-dotnet new solution --name StringCase
+dotnet new solution --name ${PROJECT}
 
 ## Make a project of a library
-dotnet new classlib --name StringCase --output StringCase --framework net10.0
-dotnet solution StringCase.slnx add StringCase/StringCase.csproj
-awk '/<\/PropertyGroup>/{print "    <GenerateDocumentationFile>true</GenerateDocumentationFile>"}1' StringCase/StringCase.csproj > .tmp
-mv .tmp StringCase/StringCase.csproj
+dotnet new classlib --name ${PROJECT} --output ${PROJECT} --framework ${DOTNETVER}
+dotnet solution ${PROJECT}.slnx add ${PROJECT}/${PROJECT}.csproj
+awk '/<\/PropertyGroup>/{print "    <GenerateDocumentationFile>true</GenerateDocumentationFile>"}1' ${PROJECT}/${PROJECT}.csproj > .tmp
+mv .tmp ${PROJECT}/${PROJECT}.csproj
 
 ## Make a project for unit tests
 dotnet new install xunit.v3.templates
-dotnet new xunit3 --name StringCase.Tests --output StringCase.Tests --framework net10.0
-dotnet solution StringCase.slnx add StringCase.Tests/StringCase.Tests.csproj
-dotnet add StringCase.Tests/StringCase.Tests.csproj reference StringCase/StringCase.csproj
+dotnet new xunit3 --name ${PROJECT}.Tests --output ${PROJECT}.Tests --framework ${DOTNETVER}
+dotnet solution ${PROJECT}.slnx add ${PROJECT}.Tests/${PROJECT}.Tests.csproj
+dotnet add ${PROJECT}.Tests/${PROJECT}.Tests.csproj reference ${PROJECT}/${PROJECT}.csproj
 
 ## Make a project for native build
-dotnet new console --name StringCase.NativeTests --framework net10.0
-dotnet solution StringCase.slnx add StringCase.NativeTests/StringCase.NativeTests.csproj
-dotnet add StringCase.NativeTests/StringCase.NativeTests.csproj reference StringCase/StringCase.csproj
-awk '/<\/PropertyGroup>/{print "    <PublishAot>true</PublishAot>"}1' StringCase.NativeTests/StringCase.NativeTests.csproj > .tmp
-mv .tmp StringCase.NativeTests/StringCase.NativeTests.csproj
+dotnet new console --name ${PROJECT}.NativeTests --framework ${DOTNETVER}
+dotnet solution ${PROJECT}.slnx add ${PROJECT}.NativeTests/${PROJECT}.NativeTests.csproj
+dotnet add ${PROJECT}.NativeTests/${PROJECT}.NativeTests.csproj reference ${PROJECT}/${PROJECT}.csproj
+awk '/<\/PropertyGroup>/{print "    <PublishAot>true</PublishAot>"}1' ${PROJECT}.NativeTests/${PROJECT}.NativeTests.csproj > .tmp
+mv .tmp ${PROJECT}.NativeTests/${PROJECT}.NativeTests.csproj
 
 ## Make a project for benchmark
 dotnet new install BenchmarkDotNet.Templates
-dotnet new benchmark --name StringCase.Benchmarks --output StringCase.Benchmarks --framework net10.0
-dotnet solution StringCase.slnx add StringCase.Benchmarks/StringCase.Benchmarks.csproj
-dotnet add StringCase.Benchmarks/StringCase.Benchmarks.csproj reference StringCase/StringCase.csproj
+dotnet new benchmark --name ${PROJECT}.Benchmarks --output ${PROJECT}.Benchmarks --framework ${DOTNETVER}
+dotnet solution ${PROJECT}.slnx add ${PROJECT}.Benchmarks/${PROJECT}.Benchmarks.csproj
+dotnet add ${PROJECT}.Benchmarks/${PROJECT}.Benchmarks.csproj reference ${PROJECT}/${PROJECT}.csproj
 
 ## NOTE: macOS-specific issue:
 ##
