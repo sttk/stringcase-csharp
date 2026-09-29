@@ -22,6 +22,10 @@ dotnet new xunit3 --name ${PROJECT}.Tests --output ${PROJECT}.Tests --framework 
 dotnet solution ${PROJECT}.slnx add ${PROJECT}.Tests/${PROJECT}.Tests.csproj
 dotnet add ${PROJECT}.Tests/${PROJECT}.Tests.csproj reference ${PROJECT}/${PROJECT}.csproj
 
+### for Coverage
+dotnet add ${PROJECT}.Tests package Microsoft.Testing.Extensions.CodeCoverage
+dotnet tool install --global dotnet-reportgenerator-globaltool
+
 ## Make a project for native build
 dotnet new console --name ${PROJECT}.NativeTests --framework ${DOTNETVER}
 dotnet solution ${PROJECT}.slnx add ${PROJECT}.NativeTests/${PROJECT}.NativeTests.csproj
