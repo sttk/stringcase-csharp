@@ -19,7 +19,12 @@ format() {
 }
 
 test() {
-  dotnet test "${PROJECT}.Tests/${PROJECT}.Tests.csproj"
+  dotnet test "${PROJECT}.Tests/${PROJECT}.Tests.csproj" --results-directory=_site/TestResults
+}
+
+cover() {
+  dotnet test "${PROJECT}.Tests/${PROJECT}.Tests.csproj" --coverage --coverage-output-format cobertura --results-directory=_site/TestResults
+  reportgenerator -reports:_site/TestResults/*.cobertura.xml -targetdir:_site/CoverageReport
 }
 
 bench() {
@@ -103,6 +108,9 @@ else
       ;;
     test)
       test
+      ;;
+    cover)
+      cover
       ;;
     bench)
       bench
